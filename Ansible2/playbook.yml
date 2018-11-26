@@ -1,0 +1,7 @@
+---
+- name: Installing Packages...
+  hosts: 127.0.0.1
+  gather_facts: yes
+  roles:
+   - install
+   - forupdate
