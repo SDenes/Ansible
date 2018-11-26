@@ -1,6 +1,0 @@
- - name: Install 5 Packages
-   yum: name=vim,mosh,tmux,rpm,sudo state=present
-   tags:
-         -packages
-
-
